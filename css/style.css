@@ -1,5 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.star::after, 
+.star::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 10%;
+    border: 2px solid;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.star{
+    font-size: 2rem;
 }
